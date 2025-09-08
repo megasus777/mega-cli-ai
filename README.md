@@ -38,5 +38,7 @@ python main.py
 ## Bonus
 ***Use the following command in ur terminal to create an alias (shortcut) that when u will type it the LLM will Run without typing ``python main.py`` each time u wanna use it:***
 ```bash
+# open your ~/.zshrc or ~/.bashrc then add the following command in the end of the file then save it.
 alias llm='python ~/path-to-ur/main.py'
 ```
+***Then  if u wanna run it just type ``llm`` in your terminal and the llm /ai will run in ur opening terminal session.***
