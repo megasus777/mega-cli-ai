@@ -88,7 +88,7 @@ def type_out(lines, delay=0.01):
     print()
 
 if __name__ == "__main__":
-    print("💻 Chat with Deepseek Coder (type 'exit' to quit)\n")
+    print("💻 Chat with Ur LLM Coder (type 'exit' to quit)\n")
     while True:
         user_input = input(Fore.GREEN + "👤 You > " + Style.RESET_ALL)
         if user_input.lower() == "exit":
