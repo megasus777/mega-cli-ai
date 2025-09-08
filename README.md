@@ -11,7 +11,7 @@ It provides concise, structured, and readable responses for programming question
 - Real-time typing animation for a ChatGPT-like experience.
 - Retains last 2 interactions for context memory.
 - Perfect formatting for easy reading in terminal.
-- Works on Linux terminals (Kali, Ubuntu, etc.), Also on Windows WSL and Termux.
+- Works on Linux terminals (Kali, Ubuntu, etc.), Also on Windows WSL and Termux as Well.
 
 ---
 
@@ -31,7 +31,7 @@ python install requirements.txt
 ```bash
 python install requirements.txt
 ```
-4. **And finally Run The LLM and Enjoy:**
+4. **And Finally Run The LLM and Enjoy:**
 ```bash
 python main.py
 ```
