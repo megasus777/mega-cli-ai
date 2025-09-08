@@ -3,11 +3,14 @@ import json
 import time
 import shutil
 from colorama import Fore, Style, init
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Initialize colorama
 init(autoreset=True)
 
-API_KEY = "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"
+API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
 MODEL = "openrouter/sonoma-sky-alpha"
 
 SYSTEM_PROMPT = """
