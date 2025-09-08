@@ -36,7 +36,7 @@ python install requirements.txt
 python main.py
 ```
 ## Bonus
-***Use the following command in ur terminal to create an alias (shortcut) that what when u will type it the LLM will Run without typing ``python main.py`` each time u wanna use it:***
+***Use the following command in ur terminal to create an alias (shortcut) that when u will type it the LLM will Run without typing ``python main.py`` each time u wanna use it:***
 ```bash
 alias llm='python ~/path-to-ur/main.py'
 ```
