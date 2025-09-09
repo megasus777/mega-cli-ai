@@ -5,11 +5,12 @@ import shutil
 from colorama import Fore, Style, init
 import os
 from dotenv import load_dotenv
-load_dotenv()
+
 
 # Initialize colorama
 init(autoreset=True)
 
+load_dotenv()
 API_KEY = os.getenv("OPEN_ROUTER_API_KEY")
 MODEL = "openrouter/sonoma-sky-alpha"
 
@@ -56,12 +57,13 @@ def chat(message):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "HTTP-Referer": "http://localhost",
     }
     data = {
         "model": MODEL,
         "messages": messages,
-        "max_tokens": 600
+        "max_tokens": 1000
     }
 
     try:
