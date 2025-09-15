@@ -23,15 +23,11 @@ It provides concise, structured, and readable responses for programming question
 git clone https://github.com/megasus777/mega-cli-ai.git
 cd mega-cli-ai
 ```
-2. **Install The required packages:**
+2. **Get ur API-KEY from openrouter website and put it in a .env file and name it ``OPEN_ROUTER_API_KEY`` Then Run:**
 ```bash
-python install requirements.txt
+pip install -r requirements.txt
 ```
-3. **Get ur API-KEY from openrouter website and put it in a .env file and name it ``OPEN_ROUTER_API_KEY`` Then Run:**
-```bash
-python install requirements.txt
-```
-4. **And Finally Run The LLM and Enjoy:**
+3. **And Finally Run The LLM and Enjoy:**
 ```bash
 python main.py
 ```
